@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -96,6 +97,51 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-roboto scroll-smooth;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-montserrat;
+  }
+
+  .card-hover {
+    @apply transition-transform duration-300 hover:-translate-y-2;
+  }
+
+  .container-section {
+    @apply container mx-auto px-6 py-24 md:px-12 lg:px-24;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 font-montserrat relative pb-3;
+  }
+
+  .section-title::after {
+    content: '';
+    @apply block absolute bottom-0 left-0 w-16 h-1 bg-portfolio-teal;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-gray-600 mb-12 max-w-2xl;
+  }
+
+  .timeline-item {
+    @apply relative pl-8 pb-8 border-l border-gray-200;
+  }
+
+  .timeline-dot {
+    @apply absolute -left-[5px] w-[10px] h-[10px] rounded-full bg-portfolio-teal;
+  }
+
+  .animate-on-scroll {
+    opacity: 0;
+  }
+  
+  .animate-on-scroll.animate-active {
+    @apply animate-fade-in;
   }
 }
