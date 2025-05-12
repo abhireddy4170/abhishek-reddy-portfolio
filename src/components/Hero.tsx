@@ -63,7 +63,7 @@ const Hero = () => {
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-portfolio-teal opacity-20 rounded-full animate-pulse" style={{ animationDelay: "1s" }}></div>
               <div className="h-64 w-64 md:h-80 md:w-80 rounded-3xl overflow-hidden border-4 border-white shadow-2xl relative z-10 transform rotate-3 transition-transform duration-300 hover:rotate-0">
                 <img 
-                  src="/placeholder.svg" 
+                  src="/lovable-uploads/a62c7ac9-a6d5-4174-afe5-868a09537ca9.png" 
                   alt="Gangidi Abhishek Reddy" 
                   className="w-full h-full object-cover"
                 />
