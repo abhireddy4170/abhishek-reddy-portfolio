@@ -222,20 +222,20 @@ const Contact = () => {
               viewport={{ once: true }}
             >
               <div className="space-y-6">
-                {contactInfo.map((item) => (
-                  <motion.div key={item.label} className="flex items-start group" variants={item}>
+                {contactInfo.map((contact, index) => (
+                  <motion.div key={contact.label} className="flex items-start group" variants={item}>
                     <div className="p-3 bg-portfolio-light-gray rounded-lg group-hover:bg-portfolio-navy/5 transition-colors">
-                      {item.icon}
+                      {contact.icon}
                     </div>
                     <div className="ml-4">
-                      <p className="text-sm text-gray-500">{item.label}</p>
+                      <p className="text-sm text-gray-500">{contact.label}</p>
                       <a
-                        href={item.link}
+                        href={contact.link}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-portfolio-navy hover:text-portfolio-teal transition-colors font-medium"
                       >
-                        {item.value}
+                        {contact.value}
                       </a>
                     </div>
                   </motion.div>
