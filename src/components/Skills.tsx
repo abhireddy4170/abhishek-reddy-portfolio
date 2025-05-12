@@ -69,10 +69,10 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-24 bg-white relative">
+    <section id="skills" className="py-24 bg-[#FEF7CD] relative">
       {/* Background elements */}
-      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-portfolio-light-gray/50 -z-10 rounded-bl-[100px]"></div>
-      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-portfolio-light-gray/30 -z-10 rounded-tr-[80px]"></div>
+      <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-[#FDE1D3]/30 -z-10 rounded-bl-[100px]"></div>
+      <div className="absolute bottom-0 left-0 w-1/3 h-1/3 bg-[#F2FCE2]/50 -z-10 rounded-tr-[80px]"></div>
       
       <div className="container-section relative z-10">
         <motion.h2 

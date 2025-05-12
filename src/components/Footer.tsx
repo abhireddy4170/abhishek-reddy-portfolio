@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="bg-gradient-to-r from-portfolio-navy to-portfolio-navy/95 text-white overflow-hidden relative">
+    <footer className="bg-gradient-to-r from-[#F1F0FB] to-[#E5DEFF] text-gray-700 overflow-hidden relative">
       {/* Background graphics */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-portfolio-teal via-portfolio-orange to-portfolio-teal"></div>

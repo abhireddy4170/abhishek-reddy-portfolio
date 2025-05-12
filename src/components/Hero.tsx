@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-20 bg-white relative overflow-hidden">
+    <section id="home" className="min-h-screen flex items-center pt-20 bg-[#D3E4FD] relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-10 w-64 h-64 bg-portfolio-teal/5 rounded-full blur-3xl"></div>

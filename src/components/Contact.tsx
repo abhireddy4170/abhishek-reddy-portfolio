@@ -99,11 +99,12 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact" className="py-24 bg-portfolio-light-gray relative overflow-hidden">
+    <section id="contact" className="py-24 bg-[#FEC6A1] relative overflow-hidden">
       {/* Background elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-20 right-0 w-96 h-96 rounded-full bg-portfolio-teal/5 blur-3xl"></div>
         <div className="absolute bottom-10 left-0 w-80 h-80 rounded-full bg-portfolio-orange/5 blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#FFDEE2] to-transparent"></div>
       </div>
       
       <div className="container-section relative z-10">

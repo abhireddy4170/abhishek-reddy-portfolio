@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <section id="about" className="py-24 bg-portfolio-light-gray relative">
+    <section id="about" className="py-24 bg-[#E5DEFF] relative">
       {/* Background elements */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-white to-transparent"></div>
-        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-white to-transparent"></div>
+        <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#D3E4FD] to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#FDE1D3] to-transparent"></div>
         <div className="absolute top-1/4 right-0 w-40 h-40 bg-portfolio-teal/5 rounded-full blur-3xl"></div>
       </div>
 

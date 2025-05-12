@@ -1,4 +1,3 @@
-
 import { ArrowRight, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -32,8 +31,14 @@ const Portfolio = () => {
   };
 
   return (
-    <section id="portfolio" className="py-24 bg-white">
-      <div className="container-section">
+    <section id="portfolio" className="py-24 bg-[#FFDEE2] relative">
+      {/* Background elements */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
+        <div className="absolute top-0 left-0 w-full h-40 bg-gradient-to-b from-[#F2FCE2] to-transparent"></div>
+        <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-[#FEC6A1] to-transparent"></div>
+      </div>
+      
+      <div className="container-section relative z-10">
         <motion.h2 
           className="section-title"
           initial={{ opacity: 0, x: -20 }}
