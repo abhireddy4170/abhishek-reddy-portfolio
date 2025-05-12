@@ -9,7 +9,7 @@ const Portfolio = () => {
       title: "TravelTherapy",
       category: "Web Development",
       description: "A self-designed webpage exploring the therapeutic effects of travel. Built with HTML, CSS, and JavaScript. It blends technical skills with personal storytelling and demonstrates foundational front-end development expertise.",
-      image: "/placeholder.svg",
+      image: "/lovable-uploads/af3b45c3-06d1-4485-9ac4-b384fe3e3b9e.png",
       link: "#",
       tags: ["HTML", "CSS", "JavaScript"]
     }
@@ -67,7 +67,7 @@ const Portfolio = () => {
               variants={item}
             >
               <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="h-64 md:h-auto relative group overflow-hidden">
+                <div className="h-64 md:h-auto relative group overflow-hidden bg-white flex items-center justify-center p-8">
                   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-6 z-10">
                     <a 
                       href={project.link} 
@@ -81,7 +81,7 @@ const Portfolio = () => {
                   <img 
                     src={project.image} 
                     alt={project.title}
-                    className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                    className="max-w-[80%] max-h-[80%] object-contain transform group-hover:scale-110 transition-transform duration-700"
                   />
                 </div>
                 <div className="p-8 flex flex-col justify-between">
