@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+Portfolio Overview
+This is a personal portfolio website for Gangidi Abhishek Reddy, designed as a single-page application with multiple sections. The website showcases your background, skills, services, portfolio projects, and contact information.
 
-## Project info
+Technical Stack
+Framework: React with TypeScript
+Build Tool: Vite
+Styling: Tailwind CSS
+UI Components: shadcn/ui
+Animation Library: Framer Motion
+Icons: Lucide React
+Routing: React Router DOM
+State Management: React hooks (useState, useEffect)
+API Integration: @tanstack/react-query (available but not actively used)
+Notifications: Toast components from shadcn/ui
+Project Structure
+The application follows a component-based architecture with these main sections:
 
-**URL**: https://lovable.dev/projects/4e503ebc-2f50-4e45-9927-633cb47cd2a2
+Header: Navigation with links to different sections
+Hero: Introduction section with your photo and brief description
+About: Personal bio, education timeline, and work experience
+Skills: Technical skills organized in categories with icons
+Services: Services you offer with descriptions
+Portfolio: Projects showcase with images and descriptions
+Contact: Contact form and personal contact information
+Footer: Copyright information and navigation links
+Key Features
+Responsive Design: The website is fully responsive and works on mobile, tablet, and desktop screens.
+Smooth Animations: Uses Framer Motion for scroll animations and interactive elements.
+Gradient Backgrounds: Custom background gradients with pastel colors in each section.
+Interactive Elements: Hover effects, animated buttons, and smooth transitions.
+Form Handling: Contact form with validation and submission feedback.
+Timeline Visualization: Education and work experience displayed in an interactive timeline.
+Project Showcase: Portfolio projects with images, descriptions, and links.
+Code Implementation Details
+CSS Implementation:
 
-## How can I edit this code?
+Uses Tailwind utility classes for styling
+Custom CSS variables for theme colors
+Global styles defined in index.css with custom component classes
+Animation Implementation:
 
-There are several ways of editing your application.
+Page load animations with staggered effects
+Scroll-triggered animations using the whileInView property
+Interactive hover and click animations
+Custom animation for background elements and decorations
+Responsive Layout:
 
-**Use Lovable**
+Grid and flex layouts that adapt to different screen sizes
+Mobile-first approach with responsive breakpoints
+Conditional rendering for certain UI elements on smaller screens
+Theming:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4e503ebc-2f50-4e45-9927-633cb47cd2a2) and start prompting.
+Custom color palette with portfolio-specific colors
+Consistent use of fonts (Montserrat for headings, Roboto for body text)
+Gradient overlays and background effects for visual interest
+Performance Optimization:
 
-Changes made via Lovable will be committed automatically to this repo.
+Component-based architecture for code reusability
+Viewport-based rendering for animations to improve performance
+Optimized image loading and rendering
+Color Palette
+The website uses a custom color palette defined in the Tailwind configuration:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4e503ebc-2f50-4e45-9927-633cb47cd2a2) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Primary colors: portfolio-navy, portfolio-teal, portfolio-orange
+Background colors: Various pastel shades (F2FCE2, FEF7CD, FFDEE2, etc.)
+Text colors: Gray variations for different emphasis levels
+Future Enhancement Possibilities
+Backend Integration: Connect the contact form to a real backend service
+Project Filtering: Add category-based filtering for portfolio projects
+Blog Section: Add a blog or articles section for technical content
+Dark Mode: Implement a dark/light theme toggle
+Internationalization: Add support for multiple languages
+More Portfolio Projects: Expand with additional projects and case studies
+Testimonials: Add a testimonials or recommendations section
