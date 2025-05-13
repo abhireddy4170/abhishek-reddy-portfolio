@@ -7,7 +7,7 @@ const Portfolio = () => {
     category: "Web Development",
     description: "A self-designed webpage exploring the therapeutic effects of travel. Built with HTML, CSS, and JavaScript. It blends technical skills with personal storytelling and demonstrates foundational front-end development expertise.",
     image: "/lovable-uploads/af3b45c3-06d1-4485-9ac4-b384fe3e3b9e.png",
-    link: "#",
+    link: "https://abhireddy4170.github.io/traveltherapy",
     tags: ["HTML", "CSS", "JavaScript"]
   }];
   const container = {
